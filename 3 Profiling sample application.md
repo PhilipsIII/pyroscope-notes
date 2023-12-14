@@ -2,6 +2,8 @@
 - https://hackernoon.com/an-intro-to-continuous-profiling-in-kubernetes-via-pyroscope
 	- https://github.com/infracloudio/microservices-demo-dev?ref=hackernoon.com
 - https://grafana.com/blog/2023/04/19/how-to-troubleshoot-memory-leaks-in-go-with-grafana-pyroscope/
+- [Grafana Agent を用いた Continuous Profiling (golang pull編)](https://qiita.com/yosshi_/items/5d2b917027787b9a9f1e)
+- [Grafana Agent を用いた Continuous Profiling (eBPF編)](https://qiita.com/yosshi_/items/ab8252c1b44533c5e1b6)
 ## Sample Application
 ### Google microservices-demo❓
 - https://github.com/GoogleCloudPlatform/microservices-demo
