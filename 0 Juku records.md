@@ -108,3 +108,5 @@ kubectl config set-context --current --namespace=NAMESPACE
 - [Not Solved]Grafana add datasource error: origin not allowed
 	- [Persistently add data source](## Optional: Persistently add data source)
 	- [Port-forward to local environment?](https://stackoverflow.com/questions/73306003/how-can-i-solve-grafana-port-forwarding-error-on-gke)
+- Artifactory RegistryにPushする権限がない
+	- ![[AR push issue.png]]
