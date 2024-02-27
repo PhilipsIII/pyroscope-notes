@@ -78,7 +78,10 @@ https://cloud.google.com/profiler/docs/concepts-profiling
 	- [VisualVM (OSS)](https://visualvm.github.io/download.html)
 	- [JProfiler (commercial)](https://www.ej-technologies.com/products/jprofiler/overview.html)
 ---
-- pprof (Golang): https://zenn.dev/muroon/articles/adf577f563c806
+- Golang 
+	- [pprof](https://github.com/google/pprof)
+	- https://zenn.dev/muroon/articles/adf577f563c806
+---
 #### Flame Graph 
 https://grafana.com/docs/pyroscope/latest/introduction/flamegraphs/
 
@@ -96,12 +99,21 @@ https://grafana.com/docs/pyroscope/latest/introduction/flamegraphs/
 - Grafana Pyroscope 
 - ...
 ---
-#### Grafana Pyroscope 
-- (TODO: How Grafana Pyroscope collect profiling data: architecture graph, mode)
+#### Grafana Pyroscope
 ---
+##### Instrumentation Methods
+![|500](https://grafana.com/media/docs/pyroscope/pyroscope_client_server_diagram.png)
+---
+##### Deployment modes
+- Monolithic mode vs Microservices mode
+
+| ![\|300](https://grafana.com/docs/pyroscope/latest/reference-pyroscope-architecture/deployment-modes/monolithic-mode.svg) | ![\|300](https://grafana.com/docs/pyroscope/latest/reference-pyroscope-architecture/deployment-modes/microservices-mode.svg) |
+| ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 
 ---
+
 ### Grafana Pyroscope Demo
+
 
 ---
 ## Future Trends
