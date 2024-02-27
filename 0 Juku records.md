@@ -56,6 +56,14 @@ gcloud container clusters get-credentials CLUSTER_NAME --zone ZONE
 - Install Pyroscope(helm)
 	- binary
 	- micro-services
+- Push Docker images to Artifact Registry
+	- Ref: https://cloud.google.com/artifact-registry/docs/docker/authentication?hl=ja#gcloud-helper
+	- Create service account 
+		- Make sure to attach proper role(e.g. Artifact Registry Admin) to it
+		- Make sure your own account can access this service account
+	- Create key & upload key file to Cloud Shell
+	- Run command `gcloud auth activate-service-account SREVICE_ACCOUNT --key-file=KEY-FILE`
+
 
 ## Glossary
 - alias & auto-completion for kubectl

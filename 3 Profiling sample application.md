@@ -17,6 +17,9 @@
 
 ### Pyroscope + Grafana Agent(Go pull mode) demo ✅
 - https://github.com/grafana/pyroscope/blob/main/examples/golang-pull/kubernetes/README.md
+	- https://github.com/pyroscope-io/hotrod-golang
 	- To be able to pull profiles from applications, your applications needs to expose [pprof endpoints](https://pkg.go.dev/net/http/pprof).
 	- 
 ![[Profiling sample application - grafana agent go pull mode.png]]
+## AI-Powered Flamegraph Interpreter in Grafana Pyroscope
+https://pyroscope.io/blog/ai-powered-flamegraph-interpreter/

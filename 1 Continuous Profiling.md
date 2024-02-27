@@ -10,7 +10,7 @@ ref: [Continuous Profiling Definition - CNCF](https://www.cncf.io/blog/2022/05/3
 	
 ### Business case
 ref: [Continuous profiling with Grafana Pyroscope: developer experience, flame graphs, and more](https://grafana.com/about/events/grafanacon/2023/session/continuous-profiling-with-grafana-pyroscope/)
-![[Pasted image 20230801174458.png]]
+![[Business Case for Continuous Profiling.png]]
 ![[Pasted image 20230801181001.png]]
 #### Continuous Profiling & Traces/Metrics/Logs
 ![[Pasted image 20230801180357.png]]
@@ -48,7 +48,7 @@ https://flamegraph.com/
 - Pyroscope SDKs(Push)
 - Grafana Agent(Pull)
 - eBPF(get whole data from cluster without instrumenting every single application)
-![[Pasted image 20230801175458.png]]
+![[How Pyroscope works.png]]
 
 ## Questions
 - How Continuous Profiling tool works with open telemetry?
