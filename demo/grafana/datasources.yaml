@@ -1,0 +1,11 @@
+datasources:
+  pyroscope.yaml:
+   apiVersion: 1
+   datasources:
+   - name: Pyroscope
+     type: grafana-pyroscope-datasource
+     uid: pyroscope-test
+     #single binary
+     url: http://pyroscope.pyroscope-test.svc.cluster.local.:4040/
+     #micro-services
+     #url: http://pyroscope-query-frontend.pyroscope-test.svc.cluster.local.:4040/
